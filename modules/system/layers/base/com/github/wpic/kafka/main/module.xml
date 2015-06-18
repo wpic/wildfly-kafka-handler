@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="com.github.wpic.kafka">  
+	<resources>  
+		<resource-root path="wildfly-kafka-handler-1.0-SNAPSHOT.jar"/>
+	</resources>  
+	<dependencies>
+		<module name="org.apache.kafka.clients"/>
+	</dependencies>  
+</module>
